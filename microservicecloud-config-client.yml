@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿#请保存为UTF-8格式
+=======
+#请保存为UTF-8格式
+>>>>>>> d7a2b07465355a47e1c086179f680ad75c4a9406
 server: 
   port: 8201
 spring:
@@ -30,4 +34,8 @@ eureka:
     fetch-registry: false     #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
     service-url: 
       #单机 defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址（单机）。
+<<<<<<< HEAD
       defaultZone: http://eureka-dev.com:7001/eureka/
+=======
+      defaultZone: http://eureka-dev.com:7001/eureka/
+>>>>>>> d7a2b07465355a47e1c086179f680ad75c4a9406
